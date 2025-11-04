@@ -1,0 +1,20 @@
+Description of Contents
+
+This repository contains all code, data, and figures for the Conceptual Engineering Word Embeddings Study.
+
+Folders & Files
+
+Word Embeddings/ – Preprocessed embeddings for target words.
+experiments/ – Experimental results (PCA, clustering, metrics).
+context_groups/ – Clustered contexts for each word.
+summary_table.csv – Metrics for all words, including taxonomy for lexical categorisation.
+wordlist.yaml – List of all analysed words.
+imgs/ – Figures: consensus clustering landscapes, metrics comparisons, silhouette & PCA plots.
+notebooks/ –
+Figures_Chapter_6.ipynb – Figures for thesis Chapter 6.
+bnc_conceptual_engineering.ipynb – Main experimental workflow.
+
+Target Words
+cable, camera, cancer, child, computer, concept, data, duty, economy, education, electricity, energy, engineer, exam, family, freedom, friend, hat, information, knowledge, marriage, plane, planet, pressure, protein, responsibility, student, system, temperature, theory, tiger, truth, water, weight, wheel, wife
+
+All data are anonymised and fully reproducible.
