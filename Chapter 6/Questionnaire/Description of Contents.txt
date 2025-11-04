@@ -1,0 +1,37 @@
+DESCRIPTION OF CONTENTS
+Conceptual Engineering Questionnaire Study
+
+This repository contains the materials and datasets for the Conceptual Engineering Questionnaire Study, including participant documents, the questionnaire instrument, and anonymised response data for each target word.
+
+DOCUMENTS
+
+Participant Information Sheet.pdf
+Outlines the study’s purpose, participant rights, and data-handling procedures.
+
+Questionnaire.pdf
+The full questionnaire instrument, including all instructions and the five elicitation tasks.
+
+DATA FILES (.xlsx)
+Each Excel file corresponds to one target word (e.g., system, theory, freedom) and contains six tabs:
+    All Responses – Complete dataset of all participant answers
+    ExQ (Examples Question) – Examples of things participants consider instances of the word
+    DefQ (Definition Question) – Participant definitions or explanations
+    AssocQ (Associations Question) – Related words and ideas
+    CharQ (Characteristics Question) – Features or qualities that define the word
+    CntxQ (Contexts Question) – Situations or settings where the word is used
+
+Each question tab includes categorised responses with corresponding Participant Reach (PR) and Elaboration Count (EC) values used in the thesis analysis.
+
+FILES INCLUDED
+Word_System_Questionnaire.xlsx
+Words_Computer_Questionnaire.xlsx
+Words_Education_Questionnaire.xlsx
+Words_Energy_Questionnaire.xlsx
+Words_Freedom_Questionnaire.xlsx
+Words_Friend_Questionnaire.xlsx
+Words_Planet_Questionnaire.xlsx
+Words_Theory_Questionnaire.xlsx
+Words_Truth_Questionnaire.xlsx
+Words_Water_Questionnaire.xlsx
+
+All data are fully anonymised. Categorisation and coding follow the procedures described in the thesis.
