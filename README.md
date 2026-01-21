@@ -8,6 +8,7 @@ This repository contains all data, code, and supplementary materials supporting 
 ├── Chapter 6/
 │   ├── Questionnaire/
 │   ├── Word Embeddings/
+│   ├── Explanation metrics.doc/
 │   └── Description of Contents.txt
 ├── Chapter 7/
 │   ├── analysis/
