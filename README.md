@@ -10,8 +10,7 @@ This repository contains all code, analysis notebooks, and supplementary materia
 ├── Chapter 6/
 │   ├── Questionnaire/
 │   ├── Word Embeddings/
-│   ├── Explanation metrics.doc/
-│   └── Description of Contents.txt
+│   └──  Explanation metrics.doc/
 ├── Chapter 7/
 │   └── notebooks/
 ├── Chapter 8/
