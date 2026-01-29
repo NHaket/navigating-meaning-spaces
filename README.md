@@ -1,6 +1,8 @@
 # Navigating Meaning Spaces
 
-This repository contains all data, code, and supplementary materials supporting the empirical studies presented in the thesis investigating word meaning through a positively eclectic approach combining theoretical frameworks with computational and experimental methods.
+This repository contains all code, analysis notebooks, and supplementary materials supporting the empirical studies presented in the thesis investigating word meaning through a positively eclectic approach combining theoretical frameworks with computational and experimental methods.
+
+**Note**: All participant data (questionnaire responses) are available on the Open Science Framework.
 
 ## Repository Structure
 ```
@@ -11,9 +13,7 @@ This repository contains all data, code, and supplementary materials supporting 
 │   ├── Explanation metrics.doc/
 │   └── Description of Contents.txt
 ├── Chapter 7/
-│   ├── analysis/
-│   ├── notebooks/
-│   └── results/
+│   └── notebooks/
 ├── Chapter 8/
 │   └── Analysis_Chapter_8.ipynb
 └── README.md
@@ -33,9 +33,9 @@ This research employs a 'bottom-up' empirical approach at two levels:
 
 This chapter employs 'bottom-up' empirical methods to investigate word-level semantics, combining computational distributional analysis (BERT word embeddings) with qualitative data collection (questionnaires).
 
-### Questionnaire Materials (`Chapter 6/Questionnaire/`)
+### Questionnaire Study Design (`Chapter 6/Questionnaire/`)
 
-**Study Design**: Participants (n=273) answered five question types about 10 target words to elicit different dimensions of meaning:
+**Participants**: n=273 via Prolific
 
 **Target Words**: *weight, planet, theory, friend, freedom, truth, water, computer, education, energy*
 
@@ -46,10 +46,7 @@ This chapter employs 'bottom-up' empirical methods to investigate word-level sem
 - **AssocQ**: Associated words and concepts
 - **CtxQ**: Contexts where the word is most frequently encountered
 
-**Files**:
-- `Participant Information Sheet.pdf` - Ethics-approved study information
-- `Questionnaire.pdf` - Master questionnaire template
-- `Words_[WORD]_Questionnaire.xlsx` - Complete response data for each word (24 participants per word × 5 question types)
+**Data**: Complete response data (24 participants per word × 5 question types) available on OSF.
 
 **Purpose**: These questionnaires capture speakers' conscious conceptualizations, extensional boundaries, and folk theories about word meanings, providing qualitative depth to complement computational breadth.
 
@@ -111,23 +108,13 @@ This chapter extends empirical investigation to the utterance level, examining h
 - **INF** (Inferential): Derivation of implied meanings, background assumptions, or unstated implications
 - **EVA** (Evaluative): Identification of speaker's evaluative stance or subjective attitude
 
-### Analysis Files (`Chapter 7/analysis/`)
+**Data**: Complete coded responses (5 dialogues per word, 24 participants per dialogue, PAR/SIT/INF/EVA framework) available on OSF.
 
-**Files**: 10 Excel files containing:
-- `Dialogues_[WORD] - final annotations.xlsx` - All 5 dialogues per word with response classifications
-- 24 participants per dialogue (120 total per word, except *energy* with 115)
-- Complete coding according to PAR/SIT/INF/EVA framework
-
-### Results (`Chapter 7/results/`)
-
-- `Final Overview_aggregate.csv` - Summary statistics showing distribution of interpretive strategies for each word
-- `Final Overview_individual.csv` - Complete breakdown by word, dialogue, and participant
+**Key Finding**: Context-driven variation within single words substantially exceeds variation between words (interpretive strategies do not vary systematically by lexical item but respond to contextual and pragmatic factors).
 
 ### Analysis Notebook (`Chapter 7/notebooks/`)
 
 - `Analysis_Chapter_7.ipynb` - Chi-square tests, effect size calculations (Cramér's V), visualizations
-
-**Key Finding**: Context-driven variation within single words substantially exceeds variation between words (interpretive strategies do not vary systematically by lexical item but respond to contextual and pragmatic factors).
 
 ---
 
@@ -142,9 +129,6 @@ Populating PIB Theory (E-, C-, and L-structure) with questionnaire data and BERT
 Testing whether taxonomic categories (orientation, abstractness) predict both:
 - Distributional patterns (BERT metrics)
 - Comprehension strategies (discourse questionnaires)
-
-### Strand C: Coordinating Lexical-Propositional Engineering
-Quantifying relative contributions of word meaning versus contextual sources to propositional interpretation
 
 ### Analysis
 
@@ -172,17 +156,21 @@ All notebooks are fully executable and document the complete analytical pipeline
 - BERT embedding extraction: 12-24 hours
 - All other analyses: minutes
 
+### Data Access
+
+All participant data (questionnaire responses, coded annotations, and aggregate results) are available on the Open Science Framework at [OSF URL]. This repository contains all code needed to reproduce analyses from those data.
+
 ## Ethics and Participant Information
 
-- All studies received ethics approval
+- All studies received ethics approval from the University of Cambridge
 - Participants provided informed consent  
 - Compensation: £2.50 via Prolific
-- Complete documentation: `Chapter 6/Questionnaire/Participant Information Sheet.pdf`
+- Complete ethics documentation available on OSF
 
 ## Citation
 
 Researchers using these materials should cite the associated thesis:
-
+```
 @phdthesis{haket2026,
   title = {Navigating {{Meaning Spaces}}: {{A Contextualist Approach}} to {{Conceptual Engineering}}},
   author = {Haket, Nina},
@@ -190,11 +178,11 @@ Researchers using these materials should cite the associated thesis:
   address = {Cambridge},
   school = {University of Cambridge}
 }
+```
 
 ## License
 
-This project is licensed under the terms of the MIT license.
-
+This project is licensed under the terms of the MIT licence.
 
 ## Acknowledgments
 
